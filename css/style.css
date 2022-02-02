@@ -293,9 +293,10 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box img{
+    transition: 1s;
+    padding: 15px;
     height:100%;
     width:100%;
-    object-fit: cover;
 }
 
 .portfolio .box-container .box:hover img{
